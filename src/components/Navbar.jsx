@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import LoginButton from "./LoginButton";
 
 const Navbar = () => {
   const navMenu = () => {
@@ -61,7 +62,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navMenu()}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Appointment</a>
+          <LoginButton />
         </div>
       </div>
     </div>
